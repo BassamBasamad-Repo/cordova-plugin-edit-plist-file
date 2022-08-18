@@ -83,7 +83,7 @@
 		      <false/>
 		    </dict>
 	</config-file>
-	   <config-file target="*-Info.plist" parent="ADEUM_Settings/ForceWebviewInstrumentation">
+	   <config-file target="*-Info.plist" parent="/ADEUM_Settings/ForceWebviewInstrumentation">
 		      <false/>
 	</config-file> 
     </platform>
