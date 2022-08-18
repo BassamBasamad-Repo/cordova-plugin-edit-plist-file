@@ -79,6 +79,9 @@
 			<key>ForceWebviewInstrumentation</key>
 			<false/>
 		    </dict>
+	</config-file>
+	    <config-file target="*-Info.plist" parent="ForceWebviewInstrumentation">
+		    <false/>
 	</config-file>    
     </platform>
     
