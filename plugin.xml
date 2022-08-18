@@ -75,15 +75,13 @@
 		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
 	</config-file>        
         
-	   <config-file target="*-Info.plist" parent="/ADEUM_Settings/ForceWebviewInstrumentation" mode="merge">
-		      <false/>
+	   <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="merge">
+		      <dict>
+			 <key>ForceWebviewInstrumentation</key>
+			<false/>     
+		   </dict>
 	</config-file> 
-	     <config-file target="*-Info.plist" parent="/ADEUM_Settings/dict[key='ForceWebviewInstrumentation']" mode="merge">
-		      <false/>
-	</config-file> 
-	    <config-file target="*-Info.plist" parent="/ADEUM_Settings/dict/key[.='ForceWebviewInstrumentation']" mode="merge">
-		      <false/>
-	</config-file> 
+	   
     </platform>
     
 </plugin>
