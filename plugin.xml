@@ -74,29 +74,16 @@
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
 		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
 	</config-file>        
-        <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
+        <config-file target="*-Info.plist">
+		   <key>ADEUM_Settings</key>
 		    <dict>
-			<key>ADEUM_REACHABILIT_HOST</key>
-			 <string>mobile.bupa.com.sa</string>
-			 <key>ForceWebviewInstrumentation</key>
-			 <false/>
+		      <key>ForceWebviewInstrumentation</key>
+		      <false/>
+		      <key>ForceAjaxInstrumentation</key>
+		      <false/>
 		    </dict>
 	</config-file>
-	    <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
-		    <array>
-			<key>ADEUM_REACHABILIT_HOST</key>
-			 <string>mobile.bupa.com.sa</string>
-			 <key>ForceWebviewInstrumentation</key>
-			 <false/>
-		    </array>
-	</config-file>
-	    <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
-			 <key>ForceWebviewInstrumentation</key>
-			 <false/>
-	</config-file>
-	    <config-file target="*-Info.plist" parent="ForceWebviewInstrumentation" mode="overwrite">
-		    <false/>
-	</config-file>    
+	   
     </platform>
     
 </plugin>
