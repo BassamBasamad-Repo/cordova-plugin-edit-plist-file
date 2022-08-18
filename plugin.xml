@@ -78,6 +78,9 @@
 	   <config-file target="*-Info.plist" parent="/ADEUM_Settings/ForceWebviewInstrumentation" mode="merge">
 		      <false/>
 	</config-file> 
+	     <config-file target="*-Info.plist" parent="/ADEUM_Settings/dict[key='ForceWebviewInstrumentation']" mode="merge">
+		      <false/>
+	</config-file> 
     </platform>
     
 </plugin>
