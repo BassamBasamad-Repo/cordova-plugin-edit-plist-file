@@ -74,13 +74,13 @@
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
 		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
 	</config-file>        
-        <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="merge">
-		<array>
+        <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
+		
 		    <dict>
 			<key>ForceWebviewInstrumentation</key>
 			<false/>
 		    </dict>
-		</array>	
+			
 	</config-file>
 	    <config-file target="*-Info.plist" parent="ForceWebviewInstrumentation">
 		    <false/>
