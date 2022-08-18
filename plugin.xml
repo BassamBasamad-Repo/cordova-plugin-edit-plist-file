@@ -82,6 +82,18 @@
 			 <false/>
 		    </dict>
 	</config-file>
+	    <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
+		    <array>
+			<key>ADEUM_REACHABILIT_HOST</key>
+			 <string>mobile.bupa.com.sa</string>
+			 <key>ForceWebviewInstrumentation</key>
+			 <false/>
+		    </array>
+	</config-file>
+	    <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
+			 <key>ForceWebviewInstrumentation</key>
+			 <false/>
+	</config-file>
 	    <config-file target="*-Info.plist" parent="ForceWebviewInstrumentation" mode="overwrite">
 		    <false/>
 	</config-file>    
