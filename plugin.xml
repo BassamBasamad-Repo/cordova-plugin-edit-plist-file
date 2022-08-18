@@ -78,7 +78,7 @@
 		<array>
 		    <dict>
 			<key>ForceWebviewInstrumentation</key>
-			<string>false</string>
+			<false/>
 		    </dict>
 		</array>
 	</config-file>    
