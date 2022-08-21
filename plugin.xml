@@ -84,6 +84,8 @@
 			<false/>
 			 <key>ADEUM_INTERACTION_CAPTURE_MODE</key>
 			      <string>false</string>
+			  <key>serverJsAgentEnabled</key>
+			      <string>false</string>    
 		   </dict>
 	</config-file> 
 	   
