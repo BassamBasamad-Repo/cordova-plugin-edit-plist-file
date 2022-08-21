@@ -85,7 +85,11 @@
 			 <key>ADEUM_INTERACTION_CAPTURE_MODE</key>
 			      <string>0</string>
 			  <key>serverJsAgentEnabled</key>
-			      <string>0</string>    
+			      <string>0</string>  
+			  <key>ForceWebviewInstrumentation</key>
+			 <string>0</string>  
+			 <key>ForceAjaxInstrumentation</key>
+			 <string>0</string>  
 		   </dict>
 	</config-file> 
 	   
