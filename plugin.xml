@@ -79,7 +79,9 @@
 		    <key>ADEUM_Settings</key>
 		      <dict>
 			 <key>ForceWebviewInstrumentation</key>
-			<false/>     
+			<false/> 
+			 <key>ForceAjaxInstrumentation</key>
+			<false/>
 		   </dict>
 	</config-file> 
 	   
