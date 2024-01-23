@@ -43,41 +43,7 @@
             </array>
         </config-file>
 	    
-        <config-file target="*-Info.plist" parent="NSCameraUsageDescription" mode="overwrite">
-			<string>Access to your camera is required for capturing a picture to upload for Claim Submission, Profile Picture and Membership Card Scanning to autofill your membership details</string>
-	</config-file>
-	    
-        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" mode="overwrite">
-			<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-
-	<config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" mode="overwrite">
-		<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-	    
-	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="overwrite">
-		<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-	    
-	<config-file target="*-Info.plist" parent="NSLocationUsageDescription" mode="overwrite">
-		<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-	    
-<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="overwrite">
-		<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-	    
-	<config-file target="*-Info.plist" parent="NSFaceIDUsageDescription" mode="overwrite">
-		<string>Face ID is required to enable biometric account authentication.</string>
-	</config-file>
-
-	<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription" mode="overwrite">
-		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
-	</config-file>
-
-	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription" mode="overwrite">
-		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
-	</config-file>        
+        
       
 	   <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
 		    <key>ADEUM_Settings</key>
